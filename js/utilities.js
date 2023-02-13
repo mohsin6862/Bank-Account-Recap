@@ -17,3 +17,9 @@ function getElementInnerText (innerTextValue){
     const elementInnerTextValue = parseFloat(elementInnerTextString);
     return elementInnerTextValue;
 }
+
+function setNewValueById (innerTextValue,newValue){
+
+    const elementInnerText = document.getElementById(innerTextValue);
+    elementInnerText.innerText = newValue;
+}
